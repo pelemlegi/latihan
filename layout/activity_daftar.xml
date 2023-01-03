@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pendaftaran"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Nama Lengkap"
+            android:layout_marginTop="190dp"
+            android:backgroundTint="@color/black"
+            android:id="@+id/nama"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="NIM"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:id="@+id/nim"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Surat Elektronik"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:id="@+id/surel"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Kata Sandi"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:id="@+id/sandi1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Konfirmasi Kata Sandi"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:id="@+id/sandi2"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:id="@+id/daftar1"/>
+
+</RelativeLayout>
